@@ -12,7 +12,7 @@ class StarRating extends StatefulWidget {
   final Color unselectedColor;
   final Color selectedColor;
 
-  StarRating({
+    StarRating({
     required this.rating,
     this.maxRating = 10,
     this.size = 20,
