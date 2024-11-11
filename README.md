@@ -42,4 +42,4 @@ Widget build(BuildContext context) {
     );
   }
   ```
-<img src="https://github.com/NiuYuanpeng/flutter_starfish/blob/main/assets/snapshots/home.png" width="210px">
+<img src="https://github.com/NiuYuanpeng/star_rating/blob/main/assets/snapshots/star.png" width="210px">
