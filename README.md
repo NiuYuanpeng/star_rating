@@ -42,4 +42,4 @@ Widget build(BuildContext context) {
     );
   }
   ```
-[效果图][https://github.com/NiuYuanpeng/star_rating/blob/main/assets/snapshots/star.png]
+<img src="https://github.com/NiuYuanpeng/flutter_starfish/blob/main/assets/snapshots/home.png" width="210px">
