@@ -1,6 +1,6 @@
 # rating_star
 
-用flutter实现的星星评分控件
+用flutter实现的星星评分控件，支持星星个数、分数、size，选中颜色，未选择颜色等属性修改
 
 ```
  final double rating;
@@ -24,19 +24,25 @@
   }): unselectedImage = unselectedImage ?? Icon(Icons.star, size: size, color: unselectedColor,),
   selectedImage = selectedImage ?? Icon(Icons.star, size: size, color: selectedColor,);
 
-
 ```
 
+使用起来非常简单
+```  
+Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('评价星星'),
+      ),
+      body: Center(
+        child: StarRating(
+          rating: 3.3,
+          size: 25,
+        ),
+      ),
+    );
+  }
+  ```
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 # star_rating
