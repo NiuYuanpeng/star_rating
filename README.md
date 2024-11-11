@@ -42,7 +42,4 @@ Widget build(BuildContext context) {
     );
   }
   ```
-## Getting Started
-
-
-# star_rating
+[效果图][https://github.com/NiuYuanpeng/star_rating/blob/main/assets/snapshots/star.png]
